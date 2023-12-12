@@ -1,3 +1,3 @@
-text = "HI"
-with text as lower:
-    print(lower.lower())
+a = ["a","b","c"]
+for x in range(len(a)):
+    print(list(enumerate(a))[x])

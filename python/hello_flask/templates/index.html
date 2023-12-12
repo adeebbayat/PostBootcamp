@@ -1,25 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='/css/style.css') }}"
-    />
-  </head>
-  <body>
-    <h1>Index Page</h1>
-    <h3>Create a User</h3>
-    <form action="/users" method="post">
-        <label for="name">Name:</label>
-      <input type="text" name="name" />
-        <label for="email">Email:</label>
-      <input type="text" name="email" />
-      <input type="submit" value="create user" />
-    </form>
-    <h1>Username: {{user}}</h1>
-    <h1>Email: {{email}}</h1>
-  </body>
+</head>
+<body>
+    <h1>Hello Flask!</h1>
+</body>
 </html>
