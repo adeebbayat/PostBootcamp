@@ -6,6 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello Flask!</h1>
+    <h1>Phrase: {{phrase}}</h1>
+    <h1>Times: {{times}}</h1>
+
+    {% for x in range(0,times): %}
+    <p>{{ phrase }}</p>
+{% endfor %}
+      
+{% if phrase == "hello" %}
+  <p>The phrase says hello</p>
+{% endif %}
 </body>
 </html>

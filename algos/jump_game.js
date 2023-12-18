@@ -1,4 +1,4 @@
-nums = [2,3,1,1,4]
+nums = [2,3,1,1,4,1,1,0,0]
 
 var canJump = function(nums) {
     var goal = nums.length - 1;
